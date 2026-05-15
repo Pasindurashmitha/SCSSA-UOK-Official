@@ -1,2 +1,4 @@
-# SCSSA-UOK-Official
-Statistics &amp; Computer Science Students' Association Official Site
+#To LocalHost
+
+1. Run `npm install`
+2. Run `npm run dev`
