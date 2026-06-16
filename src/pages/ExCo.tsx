@@ -47,8 +47,8 @@ const ExCo: React.FC = () => {
     {
       id: "b3",
       name: "Madhushika Lakmali",
-      position: "secretary",
-      image: "/images/Committee/Secretary.jpg",
+      position: "Secretary",
+      image: "/images/Committee/secretary.jpg",
       bio: "",
       linkedin: "https://www.linkedin.com/in/madhushika-lakmali-7084782aa/en",
     },
