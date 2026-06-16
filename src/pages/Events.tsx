@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   CalendarIcon,
   MapPinIcon,
-  ClockIcon,
   ChevronDownIcon,
   ChevronUpIcon,
 } from "lucide-react";
@@ -11,7 +10,7 @@ interface Event {
   title: string;
   date: string;
   location: string;
-  status: "upcoming" | "ongoing";
+  status: "upcoming" | "ongoing"|"completed";
   description: string;
   images: string[];
 }
@@ -24,15 +23,14 @@ const Events: React.FC = () => {
     {
       id: "1",
       title: "AGM – Annual General Meeting",
-      date: "June 16, 2025",
-      location: "B1 212, Faculty of Science",
+      date: "May 22, 2026",
+      location: "A7 406, Faculty of Science",
       status: "upcoming",
       description:
-        "The Annual General Meeting of the Statistics and Computer Science Students' Association will elect the new executive committee for the academic year 2025/2026. All members are encouraged to attend this important event that shapes the future direction of our association.",
+        "The Annual General Meeting of the Statistics and Computer Science Students' Association will elect the new executive committee for the academic year 2026/2027. All members are encouraged to attend this important event that shapes the future direction of our association.",
       images: [
-        "https://i.postimg.cc/4Ny31BxF/2.jpg",
-        "https://i.postimg.cc/Y2b9gJMW/1.jpg",
-        "https://i.postimg.cc/m2ngpCcZ/4.jpg",
+        "https://i.postimg.cc/bNcSDJ6r/Whats-App-Image-2026-06-15-at-22-13-47.jpg",
+        
       ],
     }, 
   ];

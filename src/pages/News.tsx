@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SearchIcon, PlusIcon } from "lucide-react";
+import { SearchIcon } from "lucide-react";
 import NewsCard from "../components/UI/NewsCard";
 // Sample news data
 const allNewsItems = [
@@ -83,6 +83,26 @@ const allNewsItems = [
     summary:
       "STCS Camp 2025, held on 11th January at Che Adventure Park, united over 100 undergraduates for a day of adventure, leadership activities, and industry insights, promoting teamwork, personal growth, and a strong sense of community.",
   },
+  {
+    id: "9",
+    title: "STAT BEE Quiz Competition 2025: ",
+    category: "Competition",
+    date: "27th November 2025",
+    image:
+      "https://i.postimg.cc/ZKWj68Vz/picture-02.jpg",
+    summary:
+      "STAT BEE 2.0, held on 27th November 2025 in collaboration with University College London (UCL), brought together undergraduate teams for a three-phase statistical quiz , promoting analytical thinking, teamwork, and cross-year academic collaboration through innovative buzzer-based competition.",
+  },
+  {
+    id: "10",
+    title: "Code.py ",
+    category: "Workshops",
+    date: "24th November 2025",
+    image:
+      "https://i.postimg.cc/fL7rj1j6/Whats-App-Image-2026-06-15-at-22-18-00.jpg",
+    summary:"he code.py workshop was a seven-session Python programming series organized by the Department of Statistics & Computer Science and SCSSA at the University of Kelaniya. It provided undergraduate students with practical knowledge of Python programming, covering topics from basic syntax to data science applications. The workshop successfully enhanced students' coding skills, problem-solving abilities, and interest in computer science."
+      
+  },
 ];
 // Unique categories
 const categories = [
@@ -92,7 +112,6 @@ const categories = [
 const News: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
-  const [showPostForm, setShowPostForm] = useState(false);
   // Filter news items based on category and search query
   const filteredNews = allNewsItems.filter((item) => {
     const matchesCategory =

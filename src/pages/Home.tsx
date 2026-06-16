@@ -25,18 +25,7 @@ const itemVariants = {
     opacity: 1,
     transition: {
       duration: 0.6,
-      ease: "easeOut",
-    },
-  },
-};
-
-const fadeInVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      duration: 0.8,
-      ease: "easeOut",
+      ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number],
     },
   },
 };
@@ -85,27 +74,33 @@ const AnimatedItem: React.FC<AnimatedItemProps> = ({
 };
 
 const Home: React.FC = () => {
-  // Sample data for slideshow
+  // Sample data for slideshow images
   const slideshowImages = [
     "https://i.postimg.cc/gJTmnPby/1.jpg",
     "https://i.postimg.cc/QCKs7nj2/3.jpg",
     "https://i.postimg.cc/HWF8hq87/6.jpg",
     "https://i.postimg.cc/T3Jyhh7r/7.jpg",
     "https://i.postimg.cc/7ZkGxSVH/4.jpg",
+    "https://i.postimg.cc/JnJ9YPjQ/Gemini-Generated-Image-zcbzvlzcbzvlzcbz.png",
+    "https://i.postimg.cc/VkDZK2pc/Whats-App-Image-2026-06-15-at-22-59-37.jpg",
+    "https://i.postimg.cc/6p5Y4Y3T/Whats-App-Image-2026-06-15-at-22-59-37-(1).jpg",
+    
+    
   ];
 
   // Sample news data
   const newsItems = [
     {
-    id: "7",
-    title: "PyQuest’24",
+    id: "10",
+    title: "Code.py ",
     category: "Workshops",
-    date: "November 16, 2024",
+    date: "24th November 2025",
     image:
-      "https://i.postimg.cc/xCkPVKff/wall.png",
-    summary:
-      "PyQuest24: A Journey into Python Programming.",
+      "https://i.postimg.cc/fL7rj1j6/Whats-App-Image-2026-06-15-at-22-18-00.jpg",
+    summary:"he code.py workshop was a seven-session Python programming series organized by the Department of Statistics & Computer Science and SCSSA at the University of Kelaniya. It provided undergraduate students with practical knowledge of Python programming, covering topics from basic syntax to data science applications. The workshop successfully enhanced students' coding skills, problem-solving abilities, and interest in computer science."
+      
   },
+
     {
     id: "8",
     title: "STCS Camp 2025",
@@ -117,15 +112,15 @@ const Home: React.FC = () => {
       "STCS Camp 2025, held on 11th January at Che Adventure Park, united over 100 undergraduates for a day of adventure, leadership activities, and industry insights, promoting teamwork, personal growth, and a strong sense of community.",
     },
     {
-    id: "5",
-    title: "Stat Bee 2024",
+    id: "9",
+    title: "STAT BEE Quiz Competition 2025: ",
     category: "Competition",
-    date: "October 17, 2024",
+    date: "27th November 2025",
     image:
-      "https://i.postimg.cc/nzT9WNJ6/DSC-0207.jpg",
+      "https://i.postimg.cc/ZKWj68Vz/picture-02.jpg",
     summary:
-      "Join our upcoming workshop on machine learning fundamentals led by industry experts. Perfect for beginners and intermediate learners.",
-    },
+      "STAT BEE 2.0, held on 27th November 2025 in collaboration with University College London (UCL), brought together undergraduate teams for a three-phase statistical quiz , promoting analytical thinking, teamwork, and cross-year academic collaboration through innovative buzzer-based competition.",
+  },
   ];
 
   return (
@@ -217,16 +212,16 @@ const Home: React.FC = () => {
           >
             {newsItems.map((news, index) => (
               <motion.div key={news.id} variants={itemVariants} custom={index}>
-                <NewsCard
-                  id={news.id}
-                  title={news.title}
-                  category={news.category}
-                  date={news.date}
-                  image={news.image}
-                  summary={news.summary}
-                />
-              </motion.div>
-            ))}
+               <NewsCard
+                id={news.id}
+                title={news.title}
+                category={news.category}
+                date={news.date}
+                image={news.image}
+                summary={news.summary}
+              />
+            </motion.div>
+           ))}
           </motion.div>
         </div>
       </AnimatedSection>

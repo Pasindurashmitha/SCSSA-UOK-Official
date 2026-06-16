@@ -149,7 +149,7 @@ const allNewsItems = [
     author: "",
     authorRole: "",
   },
-  {
+  { 
     id: "8",
     title: "STCS Camp 2025 ",
     category: "Event",
@@ -173,6 +173,75 @@ const allNewsItems = [
     Here’s to more inspiring STCS Camps in the future!
     
     `,
+    author: "",
+    authorRole: "",
+  },
+ {
+  id: "9",
+  title: "STAT BEE Quiz Competition 2025",
+  category: "Competition",
+  date: "27th November 2025",
+  image:
+    "https://i.postimg.cc/ZKWj68Vz/picture-02.jpg",
+  content: ` Stat Bee 2025, A Thrilling Quiz Competition by SCSS
+    
+    The Department of Statistics & Computer Science, in collaboration with the Statistics & Computer Science Students' Association (SCCSA), proudly hosted the Second edition of the Annual STAT BEE Quiz Competition, "Stat Bee 2.0" which was successfully held on 27th November 2025. This year's knowledge-based event was designed to promote statistical awareness, analytical thinking, and healthy competition among undergraduate students
+
+    A key highlight of this year's competition was the invaluable collaboration and support received from University College London (UCL), which elevated the event's reach and standard. The success of STAT BEE 2025 was made possible by the dedicated efforts of the Honours Degree Students, who took the lead in organizing and executing the event, supported wholeheartedly by the Statistics & Computer Science Students' Association (SCSSA). Special recognition is due to our beloved permanent and temporary staff members for their academic guidance, mentorship, and unwavering support throughout the competition
+
+    This competition provides an engaging opportunity for both first-year and second-year students to showcase their mastery of the core concepts of statistics. The competition stimulates collaboration, the building of confidence, and academic motivation. The event structure featured three progressive phases designed to evaluate students' accuracy, speed, and depth of knowledge
+
+    The competition began with the STAT BEE Starters Round, in which students from each year had to answer twelve True/False questions in a twenty-minute time span. This round tested basic concepts and was used as an initial filtering process, selecting fifty students from each year.
+
+    The second phase, STAT BEE Wizards Round involved a multiple-choice assessment of twenty-five questions. Conducted separately for the shortlisted students from each year, this stage tested deeper conceptual understanding and problem-solving ability. In this regard, the top sixteen students from each batch advanced to the final stage based on their performance.
+
+    In the final phase, STAT BEE Sorcerers Round, the selected thirty-two students were formed into eight mixed teams, each comprising two first-year and two second-year students. This structure was intentionally chosen to strengthen cross-year cooperation.
+
+    The final competition consisted of three intense rounds:
+          1. Individual True/False Round: Each team member answered one question, earning five marks for every correct response.
+          2. Team Questions: Two questions were presented to each team, with each correct answer earning ten marks.
+          3. Buzzer-Based Contest: This final round utilized newly developed physical buzzers, an improvement over the virtual system used in 2024, enhancing fairness and real-time response accuracy.
+
+    To acknowledge and celebrate student achievements, the department awarded medals to the winners, first runner-up, and second runner-up teams. Certificates were provided to all participants. Finalists also received merit passes, ensuring that every student who reached the final stage was recognized as a STAT BEE.
+    
+    The STAT BEE 2025 competition successfully strengthened student engagement in statistics, encouraged teamwork, and showcased the department's capability to conduct an innovative and academically enriching event.`,
+  author: "",
+  authorRole: "",
+},
+{
+    id: "10",
+    title: " Code.py",
+    category: "Workshops",
+    date: "24thNovember 2025",
+    image:
+      "https://i.postimg.cc/fL7rj1j6/Whats-App-Image-2026-06-15-at-22-18-00.jpg",
+    content: `Empowering Next-Generation Programmers Through Python Excellence
+      
+      code.py: Empowering Next-Generation Programmers Through Python Excellence
+      The Department of Statistics & Computer Science, in collaboration with the Statistics & Computer Science Students’ Association (SCSSA), proudly hosted the inaugural Python programming lecture series, "code.py". Successfully held across seven comprehensive sessions in December, this knowledge-driven initiative was specifically designed to promote coding literacy, logical thinking, and technical capability among undergraduate students
+
+      Organized by the dedicated committee members of the SCSSA, the entire event was seamlessly executed under the meticulous oversight of the association's Vice Secretary, Nayani Thilakarathna. The program attracted an enthusiastic audience consisting of undergraduate computer science students from the Faculty of Science at the University of Kelaniya, all eager to master the core concepts of Python programming.
+      
+      A Structured Journey: The Seven-Session Curriculum
+      The educational structure of code.py featured a progressive learning path designed to evaluate and elevate students’ foundational knowledge, problem-solving speed, and application depth. Moving systematically from core principles to object-oriented designs, the course was delivered entirely by knowledgeable second-year undergraduate students, fostering an engaging environment of peer-to-peer learning and academic motivation
+
+      Phase 1: Foundations & Control Structures
+                •	Day 01 – Introduction & Basics: The series kicked off with establishing the development environment, guiding students through setting up Python and Integrated Development Environments (IDEs) like PyCharm. Participants mastered basic syntax, variables, data types, input/output operations, and basic operators through interactive, hands-on mini-exercises.
+                •	Day 02 – Control Flow: Moving into logical execution, sessions covered conditional statements (if, elif, else) and loops (for, while), alongside control statements like break, continue, and pass. Students applied these rules practically by coding simple structural programs, including a number guessing game and a multiplication table generator.
+
+      Phase 2: Data Architecture & Modular Design
+                 •	Day 03 – Data Structures: This segment introduced the core collection types in Python: Lists, Tuples, Sets, and Dictionaries. Undergraduates dove deep into indexing, slicing, built-in functions, and iterating over collections. Practice problems featured real-world applications, such as building a word counter, a frequency dictionary, and a simple student gradebook.
+                 •	Day 04 – Functions & Modules: To emphasize modular code design, instructors focused on defining and calling functions, parameter handling, return values, and variable scope. The session also covered recursion basics and taught students how to import and utilize built-in libraries like math, random, and datetime.
+
+      Phase 3: Advanced Concepts & Real-World Application
+                  •	Day 05 – File Handling & OOP: Moving toward industry-standard software development, students learned to read and write external text and CSV files while implementing robust exception handling (try-except). This day also introduced Object-Oriented Programming (OOP) fundamentals, exploring classes, objects, attributes, methods, and an introductory level of inheritance and polymorphism.
+                  •	Day 06 – Applications & Mini-Projects: Catering directly to the audience's mathematical and analytical backgrounds, this session introduced powerful data libraries, including NumPy and Pandas, showcasing how Python is utilized in modern data science and statistical computing.
+                  •	Day 07 – The Assignment Review: The final day was dedicated to a comprehensive, interactive discussion of three challenging take-home assignments, clarifying complex concepts and solidifying the knowledge gathered throughout the month.
+                
+      Collaboration, Mentorship, and Student Success
+                   The overwhelming success of code.py was made possible by the collective, dedicated efforts of numerous SCSSA committee members and the unwavering support of the academic staff. Special recognition and gratitude are due to Dr. H.W.B. Kavinga, the esteemed permanent and temporary staff members, and the executive top tier of the society—including the President, Vice President, Secretary, and the three Editors—whose academic guidance, operational mentorship, and continuous encouragement elevated the event's reach and standard.
+                   To acknowledge and celebrate student achievements, official certificates were awarded to the participants who demonstrated true technical mastery by successfully completing and passing all three programming assignments correctly.
+                   The code.py initiative successfully strengthened undergraduate engagement in computer science, stimulated cross-batch collaboration, and showcased the SCSSA’s outstanding capability to conduct innovative, academically enriching events that foster the next generation of computational thinkers at the University of Kelaniya.`,
     author: "",
     authorRole: "",
   },
