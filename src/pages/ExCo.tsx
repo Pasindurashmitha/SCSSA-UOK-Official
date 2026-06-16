@@ -29,7 +29,7 @@ const ExCo: React.FC = () => {
       id: "b1",
       name: "Thinura Disanayake",
       position: "President",
-      image: "/images/Committee/President.jpg",
+      image: "/images/Committee/president.jpg",
       bio: "",
       linkedin:
         "https://www.linkedin.com/in/thinura-dissanayake-492944215?utm_source=share_via&utm_content=profile&utm_medium=member_android",
@@ -47,7 +47,7 @@ const ExCo: React.FC = () => {
     {
       id: "b3",
       name: "Madhushika Lakmali",
-      position: "Secretary",
+      position: "secretary",
       image: "/images/Committee/Secretary.jpg",
       bio: "",
       linkedin: "https://www.linkedin.com/in/madhushika-lakmali-7084782aa/en",
